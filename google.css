@@ -1,3 +1,15 @@
+header{
+    
+    border-top: 1px solid #e4e4e4;
+    
+    position: top;
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    
+    width: 100%;
+    
+}
 .section{
   margin-right: auto;
   margin-left: auto;
@@ -133,3 +145,37 @@ html {
     text-decoration: none;
 }
 
+
+#fbar {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+#footer {
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+}
+
+body, html {
+    font-size: small;
+}
+body {
+    background: #fff;
+    color: #222;
+}
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+body, html {
+    font-size: small;
+}
